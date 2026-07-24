@@ -1,0 +1,8 @@
+# Site-owned service toggles. Overlay on umbrella defaults.
+services:
+  podinfo:
+    enabled: true
+  nginx:
+    enabled: true
+  redis:
+    enabled: true
