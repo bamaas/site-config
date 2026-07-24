@@ -1,7 +1,0 @@
-services:
-  podinfo:
-    enabled: true
-  nginx:
-    enabled: false
-  redis:
-    enabled: true
