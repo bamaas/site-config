@@ -6,3 +6,4 @@ services:
     enabled: true
   redis:
     enabled: true
+    namespace: poc-test
