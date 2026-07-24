@@ -1,0 +1,4 @@
+# Site-specific values for redis
+architecture: standalone
+auth:
+  enabled: false
