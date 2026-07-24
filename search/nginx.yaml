@@ -1,0 +1,2 @@
+# Site-specific values for nginx
+replicaCount: 1
