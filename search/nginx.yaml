@@ -1,6 +1,0 @@
-# Site-specific values for nginx
-replicaCount: 1
-
-ingress:
-  enabled: true
-  hostname: y  # @required "Ingress hostname for nginx (e.g. nginx.site.local)"
