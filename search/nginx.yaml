@@ -1,7 +1,0 @@
-# Site-specific values for nginx
-replicaCount: 1
-
-ingress:
-  enabled: true
-  ingressClassName: nginx  # @required "Kubernetes IngressClass name (e.g. nginx, traefik)" env:ZARF_VAR_INGRESS_CLASS
-  hostname: asdf.com  # @required "Ingress hostname for nginx (e.g. nginx.site.local)" env:ZARF_VAR_NGINX_INGRESS_HOST
