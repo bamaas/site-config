@@ -1,6 +1,0 @@
-# Site-specific values for podinfo
-replicaCount: 1
-
-ingress:
-  enabled: true
-  host: nginx.poc.local  # @required "Ingress hostname for podinfo (e.g. podinfo.site.local)"
