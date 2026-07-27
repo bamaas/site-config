@@ -1,0 +1,4 @@
+# Operator overrides for podinfo
+ingress:
+  className: nginx  # @required "Kubernetes IngressClass name (e.g. nginx, traefik)" env:ZARF_VAR_INGRESS_CLASS
+  host: test.com  # @required "Ingress hostname for podinfo (e.g. podinfo.site.local)" env:ZARF_VAR_PODINFO_INGRESS_HOST
