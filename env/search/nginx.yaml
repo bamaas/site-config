@@ -1,5 +1,0 @@
-# Operator overrides for nginx
-ingress:
-  ingressClassName: nginx  # @required "Kubernetes IngressClass name (e.g. nginx, traefik)" env:ZARF_VAR_INGRESS_CLASS
-  hostname: hallo.com  # @required "Ingress hostname for nginx (e.g. nginx.site.local)" env:ZARF_VAR_NGINX_INGRESS_HOST
-serverBlock:  # @required "Custom server block for nginx (e.g. health endpoint config)" env:ZARF_VAR_NGINX_SERVER_BLOCK
